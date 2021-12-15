@@ -1,0 +1,13 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÂÂ˜
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ÀÜÜÿÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(¢¹‹ıÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ÀÜÜÿÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(¢İ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ÀÜÜÿÿÿÿÿ
+h
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ÑÚî
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(òÖ¯‚
+N	java:S106"9Replace this use of System.out or System.err by a logger.(şƒï!
+[
+java:S2259e"EA "NullPointerException" could be thrown; "current" is nullable here.(‚Øş
