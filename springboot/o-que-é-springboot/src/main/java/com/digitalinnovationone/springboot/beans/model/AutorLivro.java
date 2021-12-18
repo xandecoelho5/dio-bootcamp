@@ -1,4 +1,4 @@
-package com.digitalinnovationone.springboot.model;
+package com.digitalinnovationone.springboot.beans.model;
 
 public interface AutorLivro {
 

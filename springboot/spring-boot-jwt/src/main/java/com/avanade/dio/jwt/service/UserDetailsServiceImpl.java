@@ -6,16 +6,18 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class UserDetailServiceImpl implements UserDetailsService {
+@Service
+public class UserDetailsServiceImpl implements UserDetailsService {
 
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    public UserDetailServiceImpl(BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public UserDetailsServiceImpl(BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
     }
 

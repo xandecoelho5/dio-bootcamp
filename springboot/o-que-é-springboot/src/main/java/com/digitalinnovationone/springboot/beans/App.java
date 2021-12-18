@@ -1,7 +1,7 @@
-package com.digitalinnovationone.springboot;
+package com.digitalinnovationone.springboot.beans;
 
-import com.digitalinnovationone.springboot.model.Autor;
-import com.digitalinnovationone.springboot.model.Livro;
+import com.digitalinnovationone.springboot.beans.model.Autor;
+import com.digitalinnovationone.springboot.beans.model.Livro;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
